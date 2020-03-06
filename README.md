@@ -29,7 +29,8 @@ Hanlingzhi's Package PyPi Demo
 </pre>
 
 * 分发到PyPi私服(pypi提供的测试版 test.pypi.org)，首先安装twine
-<pre> pip3 install twine
+<pre>
+pip3 install twine
 python3 -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 Uploading distributions to https://test.pypi.org/legacy/
 Enter your username: hanlingzhi  // 私服注册的用户名
@@ -42,8 +43,7 @@ Uploading hanlingzhi-test-0.0.1.tar.gz
 
 * 下载依赖
 <pre>
-最好在虚拟环境下测试
-python3 -m venv venv
+最好在虚拟环境下测试  python3 -m venv venv
 python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps hanlingzhi_test
 Looking in indexes: https://test.pypi.org/simple/
 Collecting hanlingzhi_test
@@ -55,8 +55,8 @@ Successfully installed hanlingzhi-test-0.0.1
 * 测试
 <pre>
 python3
-\>>> from hanlingzhi import math_h
-\>>> math_h.addition(3,4)
+>>> from hanlingzhi import math_h
+>>> math_h.addition(3,4)
 7			// 成功
 </pre>
 
