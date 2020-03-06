@@ -11,7 +11,7 @@ setuptools.setup(
     # 包名
     name="hanlingzhi-test",
     # 版本(也可以用日期表示 2020.3.1 这样每次提交不需要在改版本)
-    version="0.0.1",
+    version="0.0.2",
     # 作者
     author="Han LingZhi",
     # 作者邮箱
@@ -23,7 +23,7 @@ setuptools.setup(
     # 模式的格式
     long_description_content_type="text/markdown",
     # 项目提供主页URL
-    url="https://github.com/hanlingzhi/TF-ByScenario",
+    url="https://github.com/hanlingzhi/PackageToPypi-Demo",
     # 许可证类型 https://choosealicense.com/ 可以选择证书类型
     license='MIT',
     # 程序包列表 package包会自动搜索
